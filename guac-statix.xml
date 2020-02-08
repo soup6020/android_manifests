@@ -10,7 +10,7 @@
   <!-- Common crap -->
   <project name="AOSiP-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="guac" />
   <project name="AOSiP-Devices/device_oneplus_common" path="device/oneplus/common" remote="github" revision="ten" />
-
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
 
   <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
 <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gitlab" />
