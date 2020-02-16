@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+
   <!-- sm8150 -->
 	<project name="AOSiP-Devices/device_oneplus_guacamole" path="device/oneplus/guacamole" remote="github" revision="ten" />
 	<project name="AOSiP-Devices/device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="github" revision="ten" />
@@ -10,10 +10,4 @@
   <!-- Common crap -->
   <project name="AOSiP-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="guac" />
   <project name="AOSiP-Devices/device_oneplus_common" path="device/oneplus/common" remote="github" revision="ten" />
-
-
-  <!-- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="gitlab" />
-<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="gitlab" />
-<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="gitlab" /> -->
 </manifest>
